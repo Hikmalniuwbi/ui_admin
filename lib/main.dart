@@ -1,4 +1,5 @@
 import 'package:admin_ui/admin/form_login_admin.dart';
+import 'package:admin_ui/admin/form_login_siswa.dart';
 import 'package:admin_ui/admin/home_admin.dart';
 import 'package:admin_ui/admin/kelas/list_kelas.dart';
 import 'package:admin_ui/admin/kelas/list_siswa_perkelas.dart';
@@ -10,7 +11,6 @@ import 'package:admin_ui/admin/profile_admin.dart';
 import 'package:admin_ui/admin/siswa/detail_siswa.dart';
 import 'package:admin_ui/admin/kelas/tambah_kelas.dart';
 import 'package:admin_ui/admin/siswa/tambah_siswa.dart';
-import 'package:admin_ui/form_login_siswa.dart';
 import 'package:flutter/material.dart';
 
 void main() {
