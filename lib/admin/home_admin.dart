@@ -1,6 +1,5 @@
 import 'package:admin_ui/admin/widgets/grid_home.dart';
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 
 class HomeAdmin extends StatelessWidget {
   const HomeAdmin({Key? key}) : super(key: key);
@@ -10,15 +9,16 @@ class HomeAdmin extends StatelessWidget {
     return Scaffold(
         body: Stack(
       children: [
-        Positioned.fill(
-            child: Lottie.asset(
-          'assets/adminhome.json',
-        )),
+        // Positioned.fill(
+        //     child: Lottie.asset(
+        //   'assets/adminhome.json',
+        // )),
         SingleChildScrollView(
           child: Column(
             children: [
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 25, vertical: 30),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 25, vertical: 30),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -26,7 +26,7 @@ class HomeAdmin extends StatelessWidget {
                       backgroundColor: Colors.blue.shade400,
                       radius: 28,
                       child: IconButton(
-                        icon: Icon(
+                        icon: const Icon(
                           Icons.person,
                           size: 36,
                         ),
@@ -39,7 +39,7 @@ class HomeAdmin extends StatelessWidget {
                 ),
               ),
               // SizedBox(height: 50),
-              Padding(
+              const Padding(
                 padding: EdgeInsets.all(10.0),
                 child: ListTile(
                   title: Text(
@@ -55,7 +55,7 @@ class HomeAdmin extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
               // GRID UNTUK TIAP MENU

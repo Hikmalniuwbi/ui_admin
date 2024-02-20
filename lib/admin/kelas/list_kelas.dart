@@ -9,7 +9,7 @@ class ListKelasPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         centerTitle: true,
-        title: Text(
+        title: const Text(
           'Daftar Kelas',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),

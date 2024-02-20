@@ -62,7 +62,7 @@ class ProfileAdminPage extends StatelessWidget {
                       title: Text('Sign out'),
                       trailing: Icon(Icons.chevron_right),
                       onTap: () {
-                        Navigator.pushNamed(context, '/login_admin');
+                        Navigator.pushNamed(context, '/login_siswa');
                       },
                     ),
                   ],
