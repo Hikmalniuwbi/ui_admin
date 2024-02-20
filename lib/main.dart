@@ -1,5 +1,5 @@
-import 'package:admin_ui/admin/form_login_admin.dart';
-import 'package:admin_ui/admin/form_login_siswa.dart';
+import 'package:admin_ui/admin/form_login/form_login_admin.dart';
+import 'package:admin_ui/admin/form_login/form_login_siswa.dart';
 import 'package:admin_ui/admin/home_admin.dart';
 import 'package:admin_ui/admin/kelas/list_kelas.dart';
 import 'package:admin_ui/admin/kelas/list_siswa_perkelas.dart';
